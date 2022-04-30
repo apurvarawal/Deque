@@ -1,0 +1,12 @@
+deque - doubly ended queue
+
+Functions deque has :
+push.front() 
+push.back()
+pop.back()
+pop.front()
+
+it can expand and contract in both directions 
+it has random access feature 
+
+if we have to access middle elements, then it is not preferred

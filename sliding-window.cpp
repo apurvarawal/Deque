@@ -39,12 +39,12 @@ int main(){
     }
     
     //processing elements after 1st 'k' elements
-    for(;i<n;i++){
+    for(;i<=n;i++){
 
         cout<<a[q.front()]; //printing the greatest element in the 1st window.
 
         //removing the elements of the previous window.
-        while(!q.empty() && (q.front()<(i-k))){
+        while(!q.empty() && (q.front()<=(i-k))){
             q.pop_front();
         }
 
